@@ -1,0 +1,125 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+*,*::before,*:after{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+:focus, :active {outline: none;}
+a :focus, a :active{outline: none;}
+nav,footer,header,aside{display: block;}
+
+html,body{
+height:100%;
+width: 100%;
+font-size: 100%;
+line-height: 1; 
+font-size: 14px;
+-ms-text-size-adjust: 100%;
+-moz-text-size-adjust: 100%;
+-webkit-text-size-adjust: 100%;
+}
+
+input, button,textarea{font-family: inherit;}
+
+input ::-ms-clear{display: none;}
+button{cursor: pointer;}
+button ::-moz-focus-inner{ padding: 0; border: 0;}
+a, a :visited{text-decoration: none;}
+a :hover{ text-decoration:none;}
+ul li{list-style: none;}
+img{vertical-align: none;}
+
+h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight:400;}
+
+body{
+    background: url(../img/bg.png) no-repeat;
+    background-size: cover;
+}
+.block{
+
+
+}
+
+
+h1{
+    color: #fff;
+    font-size: 35px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: underline;
+    margin: 0 0 100px 110px;
+}
+
+.check{
+    color:rgba(22, 144, 224, 1);;
+    font-size: 40px;
+    margin: 0 0 15px 110px;
+}
+.block2{
+        color: #fff;
+        font-size: 55px;
+        margin: 0 0 15px 110px;
+}
+
+.block3{
+    color: gray;
+    font-size: 22px;
+    max-width: 600px;
+    margin: 0px 0 0 110px;
+}
+
+.bottom1{
+    display: inline-block;
+    background-color: rgba(12, 114, 125, 1);;
+    height: 70px;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 0 30px;
+    margin: 40px 0 0px 110px ;
+    line-height: 68px;
+    color: #fff;
+    letter-spacing: 2.8px;
+}
+.bottom2{
+    display: inline-block;
+    background-color: rgba(12, 114, 125, 1);;
+    height: 70px;
+    border-radius: 5px;
+    font-size: 20px;
+    line-height: 68px;
+    color: #fff;
+    padding: 0 30px;
+    margin: 0 0 0 110px;
+    letter-spacing: 2.8px;
+}   
+
+.block4{
+    height: 30px;
+    border-radius: 3px;
+    margin: 0 0 17px 1400px;
+    width: 300px;
+    font-size: 20px;
+}
+.block5{
+    height: 30px;
+    border-radius: 3px;
+    margin: 0 0 30px 1400px;
+    width: 300px;
+    font-size: 20px;
+}
+
+.bottom4{
+    display: inline-block;
+    background-color: rgba(12, 114, 125, 1);;
+    height: 70px;
+    border-radius: 5px;
+    font-size: 20px;
+    line-height: 68px;
+    color: #fff;
+    padding: 0 80px;
+    margin: 0 0 30px 1440px;
+}
